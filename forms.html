@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="asset/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="asset/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="asset/icons./icons/">
+<link rel="apple-touch-icon" sizes="76x76" href="asset/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="asset/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="asset/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="asset/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="asset/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="asset/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="asset/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="asset/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="asset/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./icons/android-icon-144x144.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <form method="get" name="signup" action="/paula.php">
+        <p>
+            <label for="fullname">Fullname:</label>
+            <input type="password" placeholder="first name" required>
+        </p>
+        <p>
+            <label for="Dateofbirth">Date of Birth</label>
+            <input type="date" name="Dateofbirth" id="Dateofbirth" required>
+        </p>
+        <p>
+            <label>Gender</label>
+            <select name="Gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="female">Female</option>
+                <option value="non binary">Non binary</option>
+            </select>
+        <p>
+            <label for="language">Language</label>
+            <input type="checkbox" name="language" value="English"> <span>English</span>
+            <input type="checkbox" name="language" value="french"> <span id="">French</span>
+        </p>
+
+        <label for="country">country</label>
+        <input type="radio" name="country" value="Nigeria"> <span>Nigeria</span>
+        <input type="radio" name="country" value="USA"> <span>USA</span>
+        <input type="radio" name="country" value="finland"> <span>finland</span>
+        </p>
+        <p>
+            <label for="photo">upload photo</label>
+            <input type="file" name="photo" accept="">
+        </p>
+        <p>
+            <label for="address">Address</label>
+            <textarea name="address" id="" cols="50" rows="3"></textarea>
+        </p>
+
+        <input type="submit" value="sign in">
+    </form>
+
+
+</body>
+
+</html>
